@@ -1,0 +1,69 @@
+.add-close-btn-div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    margin: 1em 0 1em 0;
+    margin-bottom: 1.5em;
+}
+
+.add-post-modal {
+    top: 25%;
+    width: 100%;
+    max-width: 400px;
+    height: 40vh;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(18, 119, 235, .99);
+    border-radius: 3px;
+    box-shadow: 10px 5px 10px 5px black;
+}
+
+.add-post-form {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.75em;
+    margin: auto;
+}
+
+.add-post-form input {
+    width: 100%;
+    margin-bottom: .75em;
+    height: 2em
+}
+
+.add-post-form button {
+    /* width: 100%; */
+    width: 5em;
+    border-radius: 5px;
+    height: 2em;
+    border: none;
+
+}
+
+.add-post-form button:hover {
+    background-color: lightseagreen;
+}
+
+.loseModalBtn {
+    margin-right: .5em;
+    width: 3em;
+    border-radius: 3px;
+}
+
+.closeModalBtn:hover {
+    background-color: red;
+}
+
+
+@media only screen and (min-width: 500px) {
+    .add-post-modal {
+        max-height: 40vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+}

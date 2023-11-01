@@ -1,0 +1,5 @@
+run npm install
+run npm run start
+register profile if a new user
+login if already registered
+navigate the space and post messages for everyone

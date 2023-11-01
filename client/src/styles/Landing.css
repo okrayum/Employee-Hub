@@ -1,0 +1,81 @@
+.delAcctMessageDiv {
+    color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    font-size: 1em;
+
+}
+
+.icon {
+    /* height: 1em; */
+    /* background-color: yellow; */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15em;
+    /* margin-top: .15em; */
+}
+
+.title {
+    color: wheat;
+    position: absolute;
+    margin-top: 1.15em;
+}
+
+.iconTitleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingStatement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    margin-top: 2em;
+}
+
+body {
+    background-image: url("../images/pexels-suzy-hazelwood-1762973.jpg");
+}
+
+@media only screen and (min-width: 500px) {
+    /* .landingStatement {
+        margin-top: 3em;
+    } */
+
+    .delAcctMessageDiv {
+        /* color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+        font-size: 2em;
+    
+    }
+
+    .landingStatement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: wheat;
+        margin-top: 3em;
+        font-size: 1.75em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .landingStatement {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: wheat;
+        margin-top: 3em;
+        font-size: 2em;
+    }
+
+}

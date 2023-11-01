@@ -1,0 +1,102 @@
+.close-btn-div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    /* margin: 1em 0 1em 0; */
+    margin-bottom: 0;
+    margin-top: 5em;
+}
+
+.updateModalContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.tpost-app-wrapper {
+    width: 100%;
+    height: 100%;
+
+}
+
+.update-profile-modal {
+    top: 2.5%;
+    left: 0%;
+    width: 100%;
+    max-width: 400px;
+    height: 108vh;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(18, 119, 235, 0.99);
+    border-radius: 3px;
+    box-shadow: 10px 5px 10px 5px black;
+}
+
+.update-user-profile-form {
+    width: 100%;
+    max-width: 300px;
+    padding: .5em;
+    margin: auto;
+}
+
+.update-user-profile-form input {
+    width: 100%;
+    margin-bottom: .5em;
+    height: 2em
+}
+
+.update-user-profile-form button {
+    width: 100%;
+    border-radius: 5px;
+    height: 2em;
+    /* margin-top: 2em */
+
+}
+
+.closeModalBtn {
+    width: 2em;
+    border-radius: 3px;
+    border: none;
+}
+
+.closeModalBtn:hover {
+    background-color: red;
+}
+
+.messageDiv {
+    width: 100%
+}
+
+.userDelUserBtn {
+    padding: .25em;
+    background-color: red;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 1.75em;
+
+}
+
+.userDelUserBtn:hover {
+    background-color: wheat;
+    color: red;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .update-profile-modal {
+        height: 105vh;
+        width: 100%;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+
+    .update-user-profile-form input {
+        width: 100%;
+        margin-bottom: .5em;
+        height: 2em
+    }
+}

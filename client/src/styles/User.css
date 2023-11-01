@@ -1,0 +1,102 @@
+.departmentDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5em;
+}
+
+.nameAndDeptDiv {
+    height: 8em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .75em;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .25em;
+}
+
+.delUserBtn {
+    padding: .25em;
+    background-color: red;
+    color: wheat;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.delUserBtn:hover {
+    background-color: wheat;
+    color: red;
+    /* background-color: red;
+    color: wheat; */
+}
+
+.userDiv {
+    padding: 1em;
+    border-radius: 3px;
+    margin-top: .5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25%;
+    background-color: skyblue;
+    color: darkblue;
+    margin-bottom: .5em;
+    align-items: center; 
+}
+
+.postDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.userWrapper {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameAndHiredDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 500px) {
+    .teleAndEmailDiv {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .telephone {
+        margin-right:  1em;
+    }
+
+    .nameAndHiredDiv {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .name {
+        margin-right:  2em;
+
+
+    }
+
+    .userDiv {
+        width: 60%;
+    }
+
+    .userWrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+}    

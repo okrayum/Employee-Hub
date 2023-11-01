@@ -1,0 +1,63 @@
+.registerUser-modal {
+    top: .25%;
+    left: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 103vh;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(18, 119, 235, 0.99);
+    border-radius: 3px;
+    box-shadow: 10px 5px 10px 5px black;
+}
+
+.registerUser-form {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5em;
+    margin: auto;
+}
+
+.registerUser-form input {
+    width: 100%;
+    margin-bottom: .5em;
+    height: 2em
+}
+
+.registerUser-form button {
+    width: 100%;
+    border-radius: 5px;
+    height: 2em;
+    cursor: pointer;
+
+}
+
+/* .registerUser-form button:hover {
+    background-color:gold;
+} */
+
+form button:hover {
+    background-color:gold;
+
+
+}
+.regCloseModalBtn {
+    width: 2.5em;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.regCloseModalBtn:hover {
+    background-color: red;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .registerUser-modal {
+        max-height: 100vh;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

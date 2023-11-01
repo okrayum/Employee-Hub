@@ -1,0 +1,83 @@
+.close-btn-div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    margin: 1em 0 2em 0;
+}
+
+.logIn-modal {
+    top: 30%;
+    left: 0;
+    width: 100%;
+    max-width: 400px;
+    height: 43vh;
+    position: absolute;
+    z-index: 5;
+    background-color: rgba(18, 119, 235, 0.99);
+    border-radius: 3px;
+    box-shadow: 10px 5px 10px 5px black;
+}
+
+.messageDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: .5em;
+}
+
+.logIn-form {
+    width: 100%;
+    max-width: 300px;
+    /* padding: 0.75em; */
+    margin: auto;
+}
+
+.logIn-form input {
+    width: 100%;
+    margin-bottom: .5em;
+    height: 2em
+}
+
+.logIn-form button {
+    width: 100%;
+    border-radius: 5px;
+    height: 2em
+
+}
+
+.closeModalBtn {
+    width: 3em;
+    border-radius: 3px;
+    padding: .15em;
+
+}
+
+.closeModalBtn:hover {
+    background-color: red;
+}
+
+.login-registration-btn {
+    margin-left: 1em;
+    border-radius: 3px;
+    padding: .15em
+
+
+}
+
+.login-registration-btn:hover {
+    background-color: lightgreen;
+
+}
+
+
+@media only screen and (min-width: 400px) {
+    .logIn-modal {
+        max-height: 40vh;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+    }
+}

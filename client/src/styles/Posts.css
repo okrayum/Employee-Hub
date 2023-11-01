@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    padding: .25em;
+    margin-top: 1em;
+}
+
+.post-app-wrapper {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addAPost {
+    height: 3em;
+    width: 7em;
+    border-radius: 3px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    background-color: lightskyblue;
+    color: darkblue;
+}
+
+.addAPost:hover {
+    background-color: mediumturquoise;
+    color: wheat
+}
+
+.everythingDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.edDelButtonDiv {
+    margin-top: .5em;
+}
+
+.edDelButtonDiv button {
+    border: none;
+    background-color: lightseagreen;
+
+}
+
+.delBtn:hover {
+    background-color: red;
+
+}
+
+
+
+@media only screen and (min-width: 500px) {
+    .everythingDiv {
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content:space-around;
+    }
+
+    .addAPost {
+       width: 100px;
+       margin-left: 4em;
+       border: none;
+       background-color: lightskyblue;
+       color: darkblue;
+    }
+
+    /* button.btn.addAPost {
+        width: 150px;
+        margin-top: 3em;
+    } */
+
+    .postWrapper {
+        margin-top: .5em;
+        margin-bottom: .5em;
+
+    }
+
+    .postDiv {
+        width: 75vw;
+    }
+
+    .edDelButtonDiv {
+        margin-top: .5em;
+    
+    }
+}

@@ -1,0 +1,179 @@
+.navbar {
+    /* visibility: hidden; */
+    height: 10vh;
+    width: 100vw;
+    background-color: skyblue;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navBarTitle {
+    width: 9em;
+    color: darkblue;
+    margin-left: .5em;
+    padding: .15em;
+
+}
+
+.navlink {
+    color: darkblue;
+}
+
+.navlink:hover {
+    color: wheat;
+}
+
+/* .navDiv {
+    width: 75vw;
+    display: flex;
+    justify-content: space-between;
+} */
+
+.linksDiv {
+    width: 58vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: .25em;
+
+}
+
+.bulletinNavLink {
+    margin-left: 3em;
+
+}
+
+.loginBtn {
+    display: flex;
+    margin-left: 8em;
+    /* justify-content: flex-end; */
+
+
+}
+
+.navlink:hover {
+    color: wheat;
+}
+
+.updateProfileBtn {
+    background-color: black;
+    color: magenta
+
+}
+
+.close-btn-div {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1em;
+    margin: 1em 0 2em 0;
+}
+
+.loginBtn {
+    cursor: pointer;
+    background-color: skyblue;
+    color: darkblue;
+    border-radius: 3px;
+    padding: .15em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.loginBtn:hover {
+    color: wheat;
+}
+
+.logoutBtn {
+    cursor: pointer;
+    background-color: skyblue;
+    color: darkblue;
+    border-radius: 3px;
+    padding: .15em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.logoutBtn:hover {
+    color: wheat
+}
+
+.profileBtn {
+    cursor: pointer;
+    background-color: skyblue;
+    color: darkblue;
+    border-radius: 3px;
+    padding: .15em;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.profileBtn:hover {
+    color: wheat
+}
+
+.greeting {
+    color: darkblue;
+    margin-left: .10em;
+    padding: .15em
+
+}
+
+a {
+    padding: .15em;
+}
+
+@media only screen and (min-width: 500px) {
+    .navbar {
+        /* visibility: hidden; */
+        height: 10vh;
+        width: 100%;
+        background-color: skyblue;
+        /* color: wheat; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .linksDiv {
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+    }
+
+    .loginBtn {
+        display: flex;
+        margin-left: 10em ;
+    
+    }
+
+    .bulletinNavLink {
+        margin-left: 5em;
+    
+    }
+    
+}
+
+@media only screen and (min-width: 750px) {
+
+    .loginBtn {
+        display: flex;
+        margin-left: 20em ;
+        /* justify-content: flex-end; */
+
+    
+    }
+
+    .bulletinNavLink {
+        margin-left: 8em;
+    
+    }
+
+}

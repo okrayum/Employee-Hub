@@ -1,0 +1,20 @@
+{
+  "name": "master_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd server && npm run test",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run start",
+    "start": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
