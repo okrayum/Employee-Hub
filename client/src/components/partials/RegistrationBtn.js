@@ -1,7 +1,7 @@
 import { connect } from "react-redux"
 import Button from "../Button"
 import actions from "../../utils/redux/actions"
-import RegisterUserForm from "./RegisterUserForm"
+// import RegisterUserForm from "./RegisterUserForm"
 
 const LoginRegistrationBtn = (props) => {
     return (

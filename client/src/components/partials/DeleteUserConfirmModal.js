@@ -5,11 +5,6 @@ import "../../styles/DeleteUserConfirmModal.css"
 
 
 const DeleteUserConfirmModal = (props) => {
-    // const handleClick = (e) => {
-    //     e.preventDefault()
-    //     API.deleteUser()
-    //     props.closeUpdateUserModal()
-    // }
     return (
         // props.openDeleteConfirmModal &&
         <div className="delete-user-modal">

@@ -5,7 +5,6 @@ import "../../styles/DisplayPosts.css"
 
 
 const DisplayPosts = (props) => {
-    // console.log("display posts PPRROOPPSS", props.app.allPosts)
     return (
 
         <div className="allPostsDiv">
@@ -19,7 +18,6 @@ const DisplayPosts = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    // console.log("STATE DISPLAYPOSTS ", state)
     return {
         app: state.app
     }

@@ -1,16 +1,13 @@
 import { connect } from "react-redux"
 import actions from "../../utils/redux/actions"
-// import DeleteUserConfirmModal from "./DeleteUserConfirmModal"
 import AdminDeleteUserConfirmModal from "./AdminDeleteUserConfirmModal"
 import formatTelephone from "../../functions/formatTele"
 import "../../styles/User.css"
-import { useEffect } from "react"
-import API from "../../utils/api"
+
 
 
 
 const User = (props) => {
-    // console.log("USER PROPS", props.user.userName)
 
     return (
         <div className="userWrapper">
@@ -39,7 +36,6 @@ const User = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    // console.log("USER STATE ", state)
     return {
         app: state.app,
         auth: state.auth

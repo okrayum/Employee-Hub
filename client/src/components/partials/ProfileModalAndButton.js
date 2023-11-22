@@ -1,10 +1,6 @@
 import { connect } from "react-redux"
-import { Link, Outlet, useLocation } from "react-router-dom"
 import actions from "../../utils/redux/actions"
 import UpdateProfileModal from "./UpdateProfileModal"
-
-//if use button as link
-// import { Link } from "react-router-dom"
 
 const ProfileModalAndButton = (props) => {
     const handleClick = async (e) => {
@@ -17,11 +13,6 @@ const ProfileModalAndButton = (props) => {
         <>
         {!props.auth.openModal ? <button className="profileBtn" onClick={handleClick}>Profile</button> : <UpdateProfileModal />}
         </>
-        
-        // {/* // to have button styled as a link use below option */}
-        // <>
-        // {!props.auth.openModal ? <Link onClick={handleClick}><h3 className="navlink">PROFILE</h3></Link> : <UpdateProfileModal />}
-        // </>
     )
 }
 

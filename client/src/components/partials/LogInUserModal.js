@@ -8,7 +8,6 @@ import RegisterUserForm from "./RegisterUserForm"
 import "../../styles/LogInUserModal.css"
 
 const LogInUserModal = (props) => {
-    // console.log("LOGIN PROPS ", props)
     const handleSubmit = (e) => {
         e.preventDefault()
         let { userName, password } = props.auth

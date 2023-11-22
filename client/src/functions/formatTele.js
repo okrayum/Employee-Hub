@@ -5,7 +5,7 @@ const formatTelephone = (telephone) => {
         // let newObj = {}
         let stringTelephone = telephone.toString()
         // let telephone = contacts[i].telephone.toString()
-        if (stringTelephone.length == 10) {
+        if (stringTelephone.length === 10) {
             let first = stringTelephone.slice(0, 3)
             let second = stringTelephone.slice(3, 6)
             let third = stringTelephone.slice(6, 10)
@@ -14,7 +14,7 @@ const formatTelephone = (telephone) => {
             // delete newContact.telephone
             telephone = teleStr
             // newArr.push(newContact)
-        } else if (stringTelephone.length == 11) {
+        } else if (stringTelephone.length === 11) {
             let first = stringTelephone.slice(0, 1)
             let second = stringTelephone.slice(1, 4)
             let third = stringTelephone.slice(4, 7)

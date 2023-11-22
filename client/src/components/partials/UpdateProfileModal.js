@@ -12,9 +12,6 @@ const UpdateProfileModal = (props) => {
         e.preventDefault()
         let { userName, firstName, lastName, email, telephone, hired, password1, password2, department, role} = props.auth
         API.updateUserandPosts({ userName, firstName, lastName, email, telephone, hired, password1, password2, department, role })
-        // API.getUser()
-        // API.getAllUsers() 
-        // props.closeUpdateUserModal()
     }
     return (
         <div className="updateModalContainer">

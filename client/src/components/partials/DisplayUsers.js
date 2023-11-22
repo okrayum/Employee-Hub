@@ -1,11 +1,7 @@
 import { connect } from "react-redux"
 import User from "./User"
-import { useEffect } from "react"
-import API from "../../utils/api"
-
 
 const DisplayUsers = (props) => {
-    // console.log("display users PPRROOPPSS", props.app.allUsers)
     return (
         <div className="allUsersDiv">
 
@@ -22,7 +18,6 @@ const DisplayUsers = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    // console.log("STATE DISPLAYPOSTS ", state)
     return {
         app: state.app,
         auth: state.auth

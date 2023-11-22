@@ -1,14 +1,11 @@
 import React from "react"
 import { connect } from "react-redux"
-import API from "../../utils/api"
-import { Link, Outlet, useLocation } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import LogInOutButton from "../partials/LogInOutButton"
 import ProfileModalAndButton from "../partials/ProfileModalAndButton"
 import "../../styles/Navbar.css"
 
 const Navbar = (props) => {
-    // console.log("NAVBAR PROPS ", props)
-
     const { pathname } = useLocation()
     return (
         <>
@@ -32,12 +29,9 @@ const Navbar = (props) => {
             }
             </div>
         </nav>
-        {/* <Outlet /> */}
         </>
     )
 }
-
-
 
 const mapStateToProps = (state) => {
     return {

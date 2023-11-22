@@ -9,7 +9,6 @@ const EditForm = (props) => {
     const handleSubmit = async (e) => {
         e.preventDefault()
         await API.editPost({ title: props.app.editPostTitle, body: props.app.editPostBody, _id: props.app.editId })
-        // props.closeEditModal()
     }
     return (
         <div className="edit-post-modal">
@@ -25,7 +24,6 @@ const EditForm = (props) => {
 }
 
 const mapStateToProps = (state) => {
-    // console.log("EDIT FORM STATE ", state)
     return {
         app: state.app
     }
